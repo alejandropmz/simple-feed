@@ -141,17 +141,17 @@ $posts = $OConnection->querySQL($postssql);
     fileInput.value = null;
   })
 
-  /* const postNotification = document.getElementById("post__notification");
+  const postNotification = document.getElementById("post__notification");
   const deleteNotification = document.getElementById("delete__not");
   deleteNotification.addEventListener("click", function() {
     postNotification.style.display = "none";
 
-    const postOptionsIcon = document.getElementById("post__options__icon");
+    /* const postOptionsIcon = document.getElementById("post__options__icon");
     const optionPostList = document.getElementById("option__post__list");
 
     postOptionsIcon.addEventListener("click", function() {
       optionPostList.style.display = "block";
-    })
+    }) */
 
-  }) */
+  })
 </script>
